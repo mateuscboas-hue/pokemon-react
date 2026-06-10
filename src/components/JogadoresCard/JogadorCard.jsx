@@ -1,10 +1,14 @@
-function JogadorCard({nome,caminhoImagem,time,evoluirJogador}){
+import { Link } from "react-router-dom"
+
+function JogadorCard({id,nome,caminhoImagem,time,evoluirJogador}){
     return(
             <div 
             className='ListaJogadores' >
-            <img src={caminhoImagem} width = {300} height = {300} />
+            <Link to={`/pokemon-react/${id}`}>
+            <img src={caminhoImagem} width = {300} height = {300}/> 
+            </Link>
             <h2>{nome}</h2>
-            <p> time {time}</p>
+            <p> Time: {time}</p>
             <button onClick={() => evoluirJogador(nome)}>Clique aqui!</button>
             </div> 
     )

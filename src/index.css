@@ -2,7 +2,7 @@
   --text: #6b6375;
   --text-h: #08060d;
   --bg: #fff;
-  --border: #e5e4e7;
+  --border: #fff7f7;
   --code-bg: #f4f3ec;
   --accent: #aa3bff;
   --accent-bg: rgba(170, 59, 255, 0.1);
@@ -35,7 +35,7 @@
     --text: #9ca3af;
     --text-h: #f3f4f6;
     --bg: #16171d;
-    --border: #2e303a;
+    --border: 1px
     --code-bg: #1f2028;
     --accent: #c084fc;
     --accent-bg: rgba(192, 132, 252, 0.15);
@@ -114,14 +114,35 @@ code {
 }
 
 .ListaJogadores {
- border: 1px solid gray;
+ border: 1px solid rgb(133, 133, 133);
   padding: 20px;
-  /* width: 280px; */
+  
   border-radius: 10px; 
-  background-color: rgb(54, 54, 54);
-
+  background-color: rgb(0, 0, 0);
+  
+ 
  
 &:hover{
-  background-color: rgb(31, 29, 29);
+  background-color: rgb(0, 0, 0);
+  transform: translateY(-1px) scale(1.03);
+  
+
 }
+}
+button{
+  color: #08060d;
+  border: 1px solid;
+  background-color: #afafaf;
+  border-radius: 7px;
+  width: 200px;
+  height: 40px;
+
+  &:hover{
+    cursor: pointer;
+  }
+}
+
+.page2{
+background-color: #aa3bff;
+
 }

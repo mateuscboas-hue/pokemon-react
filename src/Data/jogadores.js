@@ -14,87 +14,140 @@ import gabigol from '../assets/Gabigol.png';
 import bagregol from '../assets/Bagregol.png';
 import matador from '../assets/Matador.png';
 
-const jogadores={
+const jogadores=[
  
-    Pedro:{
+    {   
+        estagio:1,
+        nome: 'Pedro',
+        id: 1,
         prime: 'Pedrix',
-        imagem: pedro
+        imagem: pedro,
+        time: 'Fluminense'
     },
 
-    Pedrix:{
+    {   
+        
+        nome: 'Pedrix',
+        id: 2,
         prime: 'Pedragon',
-        imagem: pedrix
+        imagem: pedrix,
+        time: 'Flamengo'
 
     },
 
-    Pedragon:{
+    {
+         
+        nome: "Pedragon",
+        id: 3,
         prime:null,
-        imagem: pedragon
+        imagem: pedragon,
+        time: 'Seleção'
     },
 
 
-    Arrascaeta:{
+    {   
+        estagio: 1,
+        nome: "Arrascaeta",
+        id: 4,
         prime: 'Arraskos',
-        imagem: arrascaeta
+        imagem: arrascaeta,
+        time: "Defensor Sporting"
     },
 
-    Arraskos:{
+    { 
+        
+        nome: "Arraskos",
+        id: 5,
         prime: 'Megascaeta',
-        imagem: arraskos
+        imagem: arraskos,
+        time:'Cruzeiro'
     },
 
-    Megascaeta:{
+    {
+         
+        nome: 'Megascaeta',
+        id: 6,
         prime:null,
-        imagem: megascaeta
+        imagem: megascaeta,
+        time: "Flamengo"
     },
 
 
-    Paqueta:{
+    {    
+        estagio: 1,
+        nome: "Paquetá",
+        id: 7,
         prime:'Paquebet',
-        imagem:paqueta
+        imagem:paqueta,
+        time:"Flamengo"
     },
     
-    Paquebet:{
+    {   
+        nome: "Paquebet",
+        id: 8,
         prime:'Paquetitan',
-        imagem: paquebet
+        imagem: paquebet,
+        time:"West Ham"
     },
 
-    Paquetitan:{
+    {   
+        nome: 'Paquetitan',
+        id: 9,
         prime:null,
-        imagem: paquetitan
+        imagem: paquetitan,
+        time: "Flamengo"
     },
 
-    Neymar:{
+    {   
+        estagio: 1,
+        nome: 'Neymar',
+        id: 10,
         prime:'Conguitos',
-        imagem: neymar
+        imagem: neymar,
+        time:'Santos'
+
     },
 
-    Conguitos:{
+    {   
+       
+        nome: 'Conguitos',
+        id: 11,
         prime:'AdultoNey',
-        imagem: conguitos
+        imagem: conguitos,
+        time:"Barcelona"
     },
 
-    AdultoNey:{
+    {   nome: 'Adulto Ney',
+        id: 12,
         prime:null,
-        imagem: adultoney
+        imagem: adultoney,
+        time:"Santos"
     },
 
-    Gabigol:{
+    {   
+        
+        estagio:1,
+        nome: "Gabigol",
+        id: 13,
         prime:'Bagregol',
-        imagem: gabigol
+        imagem: gabigol,
+        time:"Santod"
     },
 
-    Bagregol:{
+    {   
+        nome:"Bagregol",
+        id: 14,
         prime:'Matador',
-        imagem: bagregol
+        imagem: bagregol,
+        time: "Benfica"
     },
 
-    Matador:{
+    {   nome: 'Matador',
+        id: 15,
         prime:null,
-        imagem: matador
+        imagem: matador,
+        time:"Flamengo"
     }
 
-   
-
-}
+]
 export default jogadores
